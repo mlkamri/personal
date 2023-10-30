@@ -12,6 +12,7 @@ body {
   background: url(../media/background.png) no-repeat fixed center
     rgb(24, 24, 24);
   background-size: auto 100vh;
+  background-attachment: fixed;
 }
 ::-webkit-scrollbar {
   width: 10px;
