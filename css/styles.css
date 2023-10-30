@@ -208,7 +208,7 @@ footer a {
 .transparent-text {
   background: url(../media/background.png) repeat fixed center, white;
 
-  background-size: auto 100%;
+  background-size: auto 100vh;
   color: rgba(0, 0, 0, 0);
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -251,22 +251,22 @@ header div::after {
   0% {
     background: url(../media/background.png) no-repeat fixed center;
     height: 50%;
-    background-size: auto 100%;
+    background-size: auto 100vh;
   }
   25% {
     background: url(../media/background.png) no-repeat fixed center;
     height: 50%;
-    background-size: auto 100%;
+    background-size: auto 100vh;
   }
   75% {
     background: url(../media/background.png) no-repeat fixed center;
     height: 0;
-    background-size: auto 100%;
+    background-size: auto 100vh;
   }
   100% {
     background: url(../media/background.png) no-repeat fixed center;
     height: 0;
-    background-size: auto 100%;
+    background-size: auto 100vh;
   }
 }
 
