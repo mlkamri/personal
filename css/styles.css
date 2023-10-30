@@ -47,7 +47,8 @@ nav a {
   color: #be3144;
   text-decoration: none;
   text-align: center;
-  padding: 15px;
+  padding: 1%;
+  padding-block: 15px;
   font-weight: 600;
   width: 100%;
   position: relative;
@@ -201,6 +202,7 @@ footer a {
 .separater {
   height: 100px;
   border: #be3144 solid 1px;
+  background-color: #be3144;
 }
 
 .transparent-text {
@@ -401,7 +403,56 @@ nav a:hover::before {
   font-size: 0.5rem;
 }
 
-@media all and (max-width: 700px) {
+@media all and (max-width: 650px) {
+  footer img {
+    width: 30px;
+  }
+
+  .fontsz-8 {
+    font-size: 5.333rem;
+  }
+  .fontsz-7 {
+    font-size: 4.666rem;
+  }
+  .fontsz-6 {
+    font-size: 4rem;
+  }
+  .fontsz-5 {
+    font-size: 3.333rem;
+  }
+  .fontsz-45 {
+    font-size: 3rem;
+  }
+  .fontsz-4 {
+    font-size: 2.666rem;
+  }
+  .fontsz-35 {
+    font-size: 2.333rem;
+  }
+  .fontsz-3 {
+    font-size: 2rem;
+  }
+  .fontsz-25 {
+    font-size: 1.666rem;
+  }
+  .fontsz-2 {
+    font-size: 1.333rem;
+  }
+  .fontsz-15 {
+    font-size: 1rem;
+  }
+  .fontsz-125 {
+    font-size: 0.833rem;
+  }
+  .fontsz-1 {
+    font-size: 0.666rem;
+  }
+  .fontsz-05 {
+    font-size: 0.333rem;
+  }
+}
+
+@media all and (max-width: 420px) {
   footer img {
     width: 30px;
   }
@@ -415,37 +466,7 @@ nav a:hover::before {
   .fontsz-6 {
     font-size: 3rem;
   }
-  .fontsz-5 {
-    font-size: 2.5rem;
-  }
-  .fontsz-45 {
-    font-size: 2.25rem;
-  }
-  .fontsz-4 {
-    font-size: 2rem;
-  }
-  .fontsz-35 {
-    font-size: 1.75rem;
-  }
-  .fontsz-3 {
-    font-size: 1.5rem;
-  }
-  .fontsz-25 {
-    font-size: 1.25rem;
-  }
-  .fontsz-2 {
-    font-size: 1rem;
-  }
-  .fontsz-15 {
-    font-size: 0.75rem;
-  }
   .fontsz-125 {
     font-size: 0.625rem;
-  }
-  .fontsz-1 {
-    font-size: 0.5rem;
-  }
-  .fontsz-05 {
-    font-size: 0.25rem;
   }
 }
